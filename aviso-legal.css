@@ -293,6 +293,9 @@ footer{
     .enlaces-cabecera{
         margin-top:-9rem;
     }
+    header p{
+        font-size:0.7rem;
+    }
 
     /*--------------Edición del aviso legal---------------*/
     .aviso-legal{
