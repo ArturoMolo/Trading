@@ -415,6 +415,9 @@ footer{
     .enlaces-cabecera{
         margin-top:-12rem;
     }
+    header p{
+        font-size:0.6rem;
+    }
 
     /*-----Explora los cursos------*/
     .hijo{ /*Editamos los divs*/
