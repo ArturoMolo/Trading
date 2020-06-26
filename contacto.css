@@ -270,7 +270,11 @@ footer{
 @media screen and (min-width:767px) and (max-width:1024px){
     /*------------------Edición del header--------------------*/
     header nav{
-        width:35%;/*Para que no ocupe toda la anchura de la ventana*/
+        left:-30%;
+        width:30%;/*Para que no ocupe toda la anchura de la ventana*/
+    }
+    nav.active{ /*Sin esta propiedad el menú no se despliega en Github ap presionar el botón del menú hamburguesa*/
+        left: 0px;
     }
 }    
 
@@ -279,7 +283,11 @@ footer{
 @media screen and (min-width:480px) and (max-width:767px){
     /*---------------------Edición del header---------------------*/
     header nav{
-        width:70%;/*Para que no ocupe toda la anchura de la ventana*/
+        left:-30%;
+        width:30%;/*Para que no ocupe toda la anchura de la ventana*/
+    }
+    nav.active{ /*Sin esta propiedad el menú no se despliega en Github ap presionar el botón del menú hamburguesa*/
+        left: 0px;
     }
 
     /*---------------------Edición del footer---------------------*/

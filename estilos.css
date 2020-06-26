@@ -83,7 +83,7 @@
         height:95%;
         margin:0;
         padding:0;
-        padding-top:24.37rem;
+        padding-top:22rem;
         text-align:center;
         box-sizing:border-box;
         background:url(escritorio.jpg);
@@ -381,7 +381,11 @@ footer{
 
 @media screen and (min-width:767px) and (max-width:1024px){
     header nav{
-        width:35%;/*Para que no ocupe toda la anchura de la ventana*/
+        left:-30%;
+        width:30%;/*Para que no ocupe toda la anchura de la ventana*/
+    }
+    nav.active{ /*Sin esta propiedad el menú no se despliega en Github ap presionar el botón del menú hamburguesa*/
+        left: 0px;
     }
 }    
 
@@ -389,7 +393,11 @@ footer{
 /*----------------------RESPONSIVE iPAD MINI----------------------*/
 @media screen and (min-width:480px) and (max-width:767px){
     header nav{
-        width:70%;/*Para que no ocupe toda la anchura de la ventana*/
+        left:-30%;
+        width:30%;/*Para que no ocupe toda la anchura de la ventana*/
+    }
+    nav.active{ /*Sin esta propiedad el menú no se despliega en Github ap presionar el botón del menú hamburguesa*/
+        left: 0px;
     }
     .columna1, .columna2, .columna3{
         width:100%; /*Para que ocupen todo el ancho de la página*/
