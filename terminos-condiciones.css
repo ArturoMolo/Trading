@@ -119,7 +119,7 @@ p{
 }
 
 
-/*-----------------------------------------Edición del footer-----------------------------------------*/
+/*----------------------Edición del footer----------------------------*/
 footer{
     clear:both;
     width:100%;
@@ -213,21 +213,20 @@ footer{
         .columna01 p{
             color:#fff;
             margin-top:1.25rem;
-            display:flex;
-            flex-flow:wrap;
         }
     .columna02{
         box-sizing:border-box;
+        padding-top:1.5rem;/*Para que el texto de la columna02 quede horizontalmente lineado con el de las otras columnas*/
         }
         .columna02 h1{
             font-size:1.37rem;
             color:#000;
         }
-        .columna02 p img{
-            display:block;
-            padding-top:8px;
-            margin-left:8px;
+        .columna02 a{
+            text-decoration:none;
+            color:#c7c7c7;
         }
+        
     .columna03{
         box-sizing:border-box;
         color:#000;
@@ -239,14 +238,18 @@ footer{
         .columna03 p{
             color:#c7c7c7;
             margin-top:1.25rem;
-            display:flex;
-            flex-flow:wrap;
             }
         .columna03 p a{
             color:#fff;
             font-weight:normal;
             text-decoration:none;
             }
+
+        .visa, .mastercard, .paypal{
+            padding:0.2rem;
+            margin:0.2rem;
+            background:#ccc;
+        }
 
 
 
@@ -313,30 +316,36 @@ footer{
     }
 
 
-    /*-----------------Edición del footer-----------------*/
-    .columna1, .columna2, .columna3{
-        width:100%; /*Para que ocupen todo el ancho de la página*/
-        margin-bottom:15%;/*Para añadir espacio entre las columnas*/
-    }
-    .columna1{
-        margin-top:15%;/*Para que haya un poco más de margen de separaciçon entre las fotos y la primera columna CURSOS*/
-    }
-    .columna3{
-        margin-bottom:5%;/*Para reducir el espacio entre la columna3 y la columna01*/
-    }
+    /*--------Editamos el footer---------*/
+.columna1, .columna2, .columna3{
+    width:100%; /*Para que ocupen todo el ancho de la página*/
+    margin-bottom:15%;/*Para añadir espacio entre las columnas*/
+}
+.columna1{
+    margin-top:15%;/*Para que haya un poco más de margen de separaciçon entre las fotos y la primera columna CURSOS*/
+}
+.columna3{
+    margin-bottom:5%;/*Para reducir el espacio entre la columna3 y la columna01*/
+}
 
-    .columna01{
-        width:100%;
-        padding-left:5.5rem;
-        margin-bottom:-2rem;/*Para reducir la separación que hay entre los items del subcontenedor del footer*/
-        text-align:center;
-    }
-    .columna02{
-        margin-bottom:-2rem;/*Para reducir la separación que hay entre los items del subcontenedor del footer*/
-    }
-    .columna03{
-        width:100%;
-        padding-left:8rem;
-        padding-bottom:2rem;/*Para añadir más espacio negro debajo de la columna03*/
-    }
+.columna01{
+    width:100%;
+    text-align:center;
+    margin-bottom:-2rem;/*Para reducir la separación que hay entre los items del subcontenedor del footer*/
+}
+.columna02{
+    margin-top:3rem;/*Para que se vea bien el texto del copyright*/
+    margin-bottom:0.5rem;/*Para reducir la separación que hay entre los items del subcontenedor del footer*/
+    text-align:center;/*Para centrar el texto del copyright*/
+    padding-top:0rem;/*Para reducir el espacio que hay sobre la columna02*/
+}
+.columna03{
+    width:100%;
+    margin-top:-0.5rem;/*Para reducir el espacio que hay sobre la columna03*/
+    text-align:center;
+    padding-bottom:3rem;/*Para añadir más espacio negro debajo de la columna03*/
+}
+.columna03 p{
+    margin-top:1rem;/*Para aumentar el espacio que hay sobre Volver al inicio*/
+}
 }
